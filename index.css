@@ -1,0 +1,285 @@
+body{
+    background: #3B4664;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 2rem;
+    color: #FFF;
+    margin-bottom: 0;
+    margin-top: 4rem;
+    margin-left: 31rem;
+    
+}    
+#res{
+    margin-left: 31rem;
+    width: 30rem;
+    height: 5rem;
+    background: #181F32;
+    border-radius: 12px;
+    color: #FFF;
+    text-align: right;
+    font-family: Segoe UI;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.calc{
+    width: 30.5rem;
+    height: 25rem;
+    background: #252D44;
+    border-radius: 12px;
+    margin-left: 31rem;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    padding-top: 3rem;
+}
+.fr{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 5rem 5rem 5rem 5rem ;
+    grid-template-rows: 3rem;
+    margin-left: 2em; 
+    gap: 2rem;
+}
+#f1{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#f2{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#f3{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#f4{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #647299;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+}
+.s{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 5rem 5rem 5rem 5rem ;
+    grid-template-rows: 3rem;
+    margin-left: 2em; 
+    gap: 2rem;
+    margin-top: 1rem;
+}
+#s1{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#s2{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#s3{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#s4{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.t{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 5rem 5rem 5rem 5rem ;
+    grid-template-rows: 3rem;
+    margin-left: 2em; 
+    gap: 2rem;
+    margin-top: 1rem;
+}
+#t1{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#t2{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#t3{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#t4{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.fo{
+    display: grid;
+    flex-wrap: wrap;
+    grid-template-columns: 5rem 5rem 5rem 5rem ;
+    grid-template-rows: 3rem;
+    margin-left: 2em; 
+    gap: 2rem;
+    margin-top: 1rem;
+}
+#fo1{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#fo2{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#fo3{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 800;
+}
+#fo4{
+    width: 5rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: #EAE3DB;
+    color: #3B4664;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.l{
+    display: grid;
+    grid-template-columns: 12rem 12rem;
+    grid-template-rows: 3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+#l1{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 11.524px;
+    background: #647299;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 23.048px;
+    font-weight: 800;
+}
+#l2{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 11.524px;
+    background: #D13F30;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 23.048px;
+    font-weight: 800;
+}
